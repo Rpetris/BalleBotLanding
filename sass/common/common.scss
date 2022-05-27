@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(
+    68.15deg,
+    $primary-color 16.62%,
+    $secondary-color 85.61%
+  );
+  font-size: 100%;
+  h1,
+  h2,
+  h3,
+  a,
+  p {
+    color: $font-color;
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: $secondary-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $primary-color;
+  border-radius: 20px;
+}

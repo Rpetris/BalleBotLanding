@@ -1,0 +1,15 @@
+//import colors
+@import "./variables/colors/colors.scss";
+
+//import fonts
+@import "./variables/fonts/fonts.scss";
+
+//import common
+@import "./common/common.scss";
+
+//import navbar(header) and footer
+@import "./common/header.scss";
+@import "./common/footer.scss";
+
+//import home
+@import "./pages/home.scss";
